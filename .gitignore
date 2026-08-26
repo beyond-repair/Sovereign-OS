@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# Secrets & local
+.env
+*.pem
+*.key
+secrets/
+*.db
+*.sqlite
+data/
+logs/
+
+# Containers
+*.local.yaml
